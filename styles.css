@@ -1,0 +1,47 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+/* ========================= @media screen ======================= */
+@media screen and (max-width: 480px) {
+    /* CSS rules for small mobile screens (portrait) */
+    .t-font {
+        font-size: 28px;
+    }
+    .Email {
+        display: none;
+    }
+    .nav-link {
+        justify-content: end;
+    }
+    .navbar-nav {
+        padding-left: 35%;
+    }
+    .Email-O {
+        padding-left: 33%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* CSS rules for small mobile screens (landscape) */
+    .Email {
+        display: none;
+    }
+}  
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for tablets (portrait) */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for tablets (landscape) */
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+    /* CSS rules for small desktop and laptop screens */
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+    /* CSS rules for medium-sized desktop screens */
+}
